@@ -20,12 +20,6 @@ const Header = ( { currentUser } ) => (
                 CONTACT
             </Link>
 
-            {/* <Link className='option' to='/sign-in'>
-                SIGN-IN
-            </Link>
-          */}
-
-         
             {
                 //Ternary operation True: eval <div>, False: render link
 
