@@ -39,13 +39,8 @@ class App extends React.Component {
                 ...snapShot.data()
               }
             },
-            // () => {
-              // pass 2nd function. needs to wait for this.setState to finish before logging. This makes sure setState is fully
-              //
-              //console.log(this.state);
-              
-
-            }
+            () => {  console.log(this.state);} 
+            // pass 2nd function. needs to wait for this.setState to finish before logging. This makes sure setState is fully
             )
         });
   
